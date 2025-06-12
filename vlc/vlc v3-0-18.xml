@@ -2,7 +2,7 @@
   <Product Version="1.0.0">
     <Download>
       <ContentURLList>
-        <ContentURL>https://storage.googleapis.com/windowssoftware/vlc-3.0.18-win64.msi</ContentURL>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/vlc/vlc-3.0.18-win64.msi</ContentURL>
       </ContentURLList>
     </Download>
     <Enforcement>
