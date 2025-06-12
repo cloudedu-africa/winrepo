@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+}
+
+.backgroundImage {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.flip {
+	position:absolute;
+	bottom: 7px;
+	right: 27px;
+	width:13px;
+	height:13px;
+}
+
+#flip {
+	opacity:0;
+	background: url(file:///System/Library/WidgetResources/ibutton/white_i.png) no-repeat top left;
+	z-index:8000;
+}
+
+#fliprollie {
+	display:none;
+	opacity:0.25;
+	background: url(file:///System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+	z-index:7999;
+
+}
+
+.usernameLabel {
+    font: 11px "Helvetica Neue";
+	font-weight: bold;
+    color: white;
+   	text-shadow: black 0px -1px 0px;
+    position: absolute;
+    left: 50px;
+    width: 140px;
+    top: 95px;
+}
+
+#usernameInputText {
+    font: 13px "Courier New";
+	font-weight: bold;
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    width: 140px;
+    border-width: 0px;
+    border-color: transparent;
+    -apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.serverLabel {
+    font: 11px "Helvetica Neue";
+	font-weight: bold;
+    color: white;
+   	text-shadow: black 0px -1px 0px;
+    position: absolute;
+    left: 50px;
+    width: 140px;
+    top: 140px;
+}
+
+#serverInputText {
+    font: 13px "Courier New";
+	font-weight: bold;
+    position: absolute;
+    left: 50px;
+    top: 155px;
+    width: 140px;
+    border-width: 0px;
+    border-color: transparent;
+    -apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+.balanceLabel {
+    font: 12px "Helvetica Neue";
+	font-weight: bold;
+    color: white;
+   	text-shadow: black 2px 2px 3px;
+    position: absolute;
+    left: 90px;
+    bottom: 48px;
+    width: 140px;
+}
+
+#balanceOutputText {
+    font: 13px "Courier New";
+	font-weight: bold;
+    position: absolute;
+    left: 70px;
+    bottom: 22px;
+    width: 90px;
+    border-width: 0px;
+    border-color: transparent;
+	background-color: transparent;
+	text-align : center;
+    -apple-dashboard-region: dashboard-region(control rectangle);
+}
+
+#companyLogo {
+	position: absolute;
+	left:77px;
+	top:20px;
+}
+
+#detailsButton {
+	position: absolute;
+	right: 2px;
+	bottom: 95px;
+    -apple-dashboard-region: dashboard-region(control rectangle);	
+}
+
+#detailsButtonText {
+    font: 11px "Helvetica Neue";
+    font-weight: Bold;
+    color: white;
+   	text-shadow: black 0px 1px 0px;
+    position: absolute;
+    right: 19px;
+    bottom: 104px;
+}
+
+#back {
+	display: none;
+}
+
+#done { 
+        position: absolute; 
+        bottom: 20px; 
+        right: 60px; 
+}
+
+/*
+
+Copyright _ 2005, Apple Computer, Inc.  All rights reserved.
+NOTE:  Use of this source code is subject to the terms of the Software
+License Agreement for Mac OS X, which accompanies the code.  Your use
+of this source code signifies your agreement to such license terms and
+conditions.  Except as expressly granted in the Software License Agreement
+for Mac OS X, no other copyright, patent, or other intellectual property
+license or right is granted, either expressly or by implication, by Apple.
+
+*/

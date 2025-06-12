@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowSystem</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>PCWidget</string>
+	<key>CFBundleIdentifier</key>
+	<string>biz.papercut.pcng.widget</string>
+	<key>CFBundleName</key>
+	<string>PCWidget</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CloseBoxInsetX</key>
+	<integer>65</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>5</integer>
+	<key>MainHTML</key>
+	<string>PCWidget.html</string>
+</dict>
+</plist>

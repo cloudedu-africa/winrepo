@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"> 
+<head>
+<script type="text/javascript" src="file:///System/Library/WidgetResources/button/genericButton.js" charset="utf-8" /> 
+<style type="text/css">
+	@import "PCWidget.css";
+</style>
+
+<script type='text/javascript' src='PCWidget.js' charset='utf-8'/>
+
+</head>
+
+<body onload='setup();'>	
+
+    <!-- The front div is the main UI of the widget.  It is visible initially and 
+      -- is hidden when the preferences are shown
+      -->
+    <div id="front" onmousemove='mousemove(event);' onmouseout='mouseexit(event);'>
+	<!-- Front side (do not remove) -->
+<!-- The background for the front side -->
+		<img span="backgroundImage" src="Default.png">  
+		<img id='companyLogo' src='Images/logo.png'></img>
+		<span class="balanceLabel">Balance:</span>
+		<input type="text" id="balanceOutputText" value="" readonly></textarea>
+		
+		<span id="theButton" onmousedown='goToServer(event);' onmouseup='buttonUpOut();' onmouseout='buttonUpOut();'>
+		<img id="detailsButton" src="Images/Button.png">
+		<span id="detailsButtonText">Details:</span>
+		</span>
+		
+		<!-- The following elements comprise the info button, present in the bottom right of thw widget upon mouse over -->
+		<div class='flip' id='fliprollie'></div>
+		<div class='flip' id='flip' onclick='showPrefs(event);' onmouseover='enterflip(event);' onmouseout='exitflip(event)';></div>
+<!-- End Front side (do not remove) -->
+	
+    </div>
+
+    <!-- The back div is the preferences UI of the widget.  It is hidden by the style sheet and shown by the showPrefs() function 
+      -->
+    <div id="back">
+	<!-- Back side (do not remove) -->	
+		<img span="backgroundImage" src="Default_reverse.png">  					<!-- The background for the back side -->
+		<span class="usernameLabel">Username:</span>
+		<input type="text" id="usernameInputText" value=""></textarea>
+		<span class="serverLabel">Server:</span>
+		<input type="text" id="serverInputText" value=""></textarea>
+	
+	<div id="done">
+		<script> 
+		var doneButton = document.getElementById('done'); 
+		createGenericButton(doneButton, "Done", hidePrefs); 
+		</script>
+		<!-- Done button; dismisses preferences -->
+		<!-- End Back side (do not remove) -->	
+  	  </div>
+
+</body>
+
+</html>
+<!--
+        
+Copyright _ 2005, Apple Computer, Inc.  All rights reserved.
+NOTE:  Use of this source code is subject to the terms of the Software
+License Agreement for Mac OS X, which accompanies the code.  Your use
+of this source code signifies your agreement to such license terms and
+conditions.  Except as expressly granted in the Software License Agreement
+for Mac OS X, no other copyright, patent, or other intellectual property
+license or right is granted, either expressly or by implication, by Apple.
+
+-->
