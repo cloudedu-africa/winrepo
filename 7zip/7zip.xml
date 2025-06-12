@@ -2,7 +2,7 @@
   <Product Version="1.0.0">
     <Download>
       <ContentURLList>
-        <ContentURL>https://storage.googleapis.com/windowssoftware/7z2408-x64.msi</ContentURL>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/blob/main/7zip/7z2408-x64.msi</ContentURL>
       </ContentURLList>
     </Download>
     <Enforcement>
