@@ -6,7 +6,7 @@
       </ContentURLList>
     </Download>
     <Enforcement>
-      <CommandLine></CommandLine>
+      <CommandLine>SERVER_HOST=10.0.1.1</CommandLine>
       <TimeOut>10</TimeOut>
       <RetryCount>5</RetryCount>
       <RetryInterval>5</RetryInterval>
