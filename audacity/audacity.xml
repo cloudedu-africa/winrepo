@@ -1,0 +1,18 @@
+<MsiInstallJob id="">
+  <Product Version="1.0.0">
+    <Download>
+      <ContentURLList>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/audacity/audacity-win-3.7.4-64bit.msi</ContentURL>
+      </ContentURLList>
+    </Download>
+    <Enforcement>
+      <CommandLine>/VERYSILENT /NORESTART</CommandLine>
+      <TimeOut>10</TimeOut>
+      <RetryCount>5</RetryCount>
+      <RetryInterval>5</RetryInterval>
+    </Enforcement>
+    <Validation>
+      <FileHash>97E251B5FF8811D97431B8E31E53EB424E329F7649F965230B19E8A5B2FD4033</FileHash>
+    </Validation>
+  </Product>
+</MsiInstallJob>
