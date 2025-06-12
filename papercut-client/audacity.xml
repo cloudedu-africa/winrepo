@@ -1,0 +1,18 @@
+<MsiInstallJob id="">
+  <Product Version="1.0.0">
+    <Download>
+      <ContentURLList>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/papercut-client/win/pc-client-admin-deploy.msi</ContentURL>
+      </ContentURLList>
+    </Download>
+    <Enforcement>
+      <CommandLine></CommandLine>
+      <TimeOut>10</TimeOut>
+      <RetryCount>5</RetryCount>
+      <RetryInterval>5</RetryInterval>
+    </Enforcement>
+    <Validation>
+      <FileHash>7C141C1833182CD48EDD474E5F5BE2835344941DD03A3CEFCB83EA9D10F44A85</FileHash>
+    </Validation>
+  </Product>
+</MsiInstallJob>
