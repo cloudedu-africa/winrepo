@@ -1,0 +1,18 @@
+<MsiInstallJob id="">
+  <Product Version="1.0.0">
+    <Download>
+      <ContentURLList>
+        <ContentURL>https://storage.googleapis.com/windowssoftware/7z2408-x64.msi</ContentURL>
+      </ContentURLList>
+    </Download>
+    <Enforcement>
+      <CommandLine></CommandLine>
+      <TimeOut>10</TimeOut>
+      <RetryCount>5</RetryCount>
+      <RetryInterval>5</RetryInterval>
+    </Enforcement>
+    <Validation>
+      <FileHash>98330E7E6DB3507B444D576DC437A9AC4D82333A88A6BB6EF36A91FE3D85FA92</FileHash>
+    </Validation>
+  </Product>
+</MsiInstallJob>

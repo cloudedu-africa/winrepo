@@ -1,0 +1,18 @@
+<MsiInstallJob id="">
+  <Product Version="1.0.0">
+    <Download>
+      <ContentURLList>
+        <ContentURL>https://storage.googleapis.com/windowssoftware/vlc-3.0.18-win64.msi</ContentURL>
+      </ContentURLList>
+    </Download>
+    <Enforcement>
+      <CommandLine></CommandLine>
+      <TimeOut>10</TimeOut>
+      <RetryCount>5</RetryCount>
+      <RetryInterval>5</RetryInterval>
+    </Enforcement>
+    <Validation>
+      <FileHash>A618D66B2F753343402200AD17D92EB6D4AB10DB0DD1A098402E2968AA3114C4</FileHash>
+    </Validation>
+  </Product>
+</MsiInstallJob>
