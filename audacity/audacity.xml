@@ -12,7 +12,7 @@
       <RetryInterval>5</RetryInterval>
     </Enforcement>
     <Validation>
-      <FileHash>231FD4EF4F0C3404B53DA1F6D3D61180F5234E0D4FBB678A7110BCB77E9B867E</FileHash>
+      <FileHash>C5ADABE46EFE7EAC3964BD96F3DC1698AF5CFAB3EB4D5FD96C4826E5DB758047</FileHash>
     </Validation>
   </Product>
 </MsiInstallJob>
