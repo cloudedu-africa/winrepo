@@ -2,7 +2,7 @@
   <Product Version="1.0.0">
     <Download>
       <ContentURLList>
-        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/audacity/Audacity.msi</ContentURL>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/audacity/Audacity3.msi</ContentURL>
       </ContentURLList>
     </Download>
     <Enforcement>
@@ -12,7 +12,7 @@
       <RetryInterval>5</RetryInterval>
     </Enforcement>
     <Validation>
-      <FileHash>0B22F43982F952DF5B4C9FA121104897D63ACF1F88E91DE748D1EF842402A335</FileHash>
+      <FileHash>474C21019FB95471B4AA83236F3EFBB3B1D54C328F78498D62A2B4290EE07589</FileHash>
     </Validation>
   </Product>
 </MsiInstallJob>
