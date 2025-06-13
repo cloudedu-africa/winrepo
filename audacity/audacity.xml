@@ -2,17 +2,17 @@
   <Product Version="1.0.0">
     <Download>
       <ContentURLList>
-        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/audacity/Audacity3.msi</ContentURL>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/audacity/audacity-win-3.7.4-64bit.msi</ContentURL>
       </ContentURLList>
     </Download>
     <Enforcement>
-      <CommandLine>/VERYSILENT /NORESTART</CommandLine>
+      <CommandLine>/SILENT /NORESTART</CommandLine>
       <TimeOut>10</TimeOut>
-      <RetryCount>5</RetryCount>
-      <RetryInterval>5</RetryInterval>
+      <RetryCount>2</RetryCount>
+      <RetryInterval>2</RetryInterval>
     </Enforcement>
     <Validation>
-      <FileHash>474C21019FB95471B4AA83236F3EFBB3B1D54C328F78498D62A2B4290EE07589</FileHash>
+      <FileHash>F5DE098ED26884DDBBC8AAFE429BB532C52655D25F922A87712F6B4E1EA8B039</FileHash>
     </Validation>
   </Product>
 </MsiInstallJob>
