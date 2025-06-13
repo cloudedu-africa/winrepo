@@ -1,8 +1,0 @@
-[version]
-name-with-version=PaperCut NG 24.1.7 (Build 72587)
-name=PaperCut NG
-version-major=24
-version-minor=1
-version-patch=7
-version-suffix=
-version-build=72587
