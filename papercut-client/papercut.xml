@@ -2,17 +2,17 @@
   <Product Version="1.0.0">
     <Download>
       <ContentURLList>
-        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/papercut-client/win/pc-client-admin-deploy.msi</ContentURL>
+        <ContentURL>https://github.com/cloudedu-africa/winrepo/raw/refs/heads/main/papercut-client/papercutjan2024.msi</ContentURL>
       </ContentURLList>
     </Download>
     <Enforcement>
-      <CommandLine>SERVER_HOST=192.168.0.10</CommandLine>
-      <TimeOut>10</TimeOut>
-      <RetryCount>5</RetryCount>
+      <CommandLine>/quiet server_host=10.20.10.3</CommandLine>
+      <TimeOut>5</TimeOut>
+      <RetryCount>3</RetryCount>
       <RetryInterval>5</RetryInterval>
     </Enforcement>
     <Validation>
-      <FileHash>7C141C1833182CD48EDD474E5F5BE2835344941DD03A3CEFCB83EA9D10F44A85</FileHash>
+      <FileHash>B68B8948AB46367B33D1C834CBDE48495A8466328D07D2C9D408F13E9C630FFB</FileHash>
     </Validation>
   </Product>
 </MsiInstallJob>
