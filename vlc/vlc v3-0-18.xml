@@ -6,7 +6,7 @@
       </ContentURLList>
     </Download>
     <Enforcement>
-      <CommandLine></CommandLine>
+      <CommandLine>/q</CommandLine>
       <TimeOut>10</TimeOut>
       <RetryCount>5</RetryCount>
       <RetryInterval>5</RetryInterval>
