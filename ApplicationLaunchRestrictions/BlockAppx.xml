@@ -6,9 +6,9 @@
       </FilePublisherCondition> 
     </Conditions> 
   </FilePublisherRule>
-    <FilePublisherRule Id="69c9b64a-0c6b-4e82-b88d-ef73e5b83aaf" Name="Block Windows Mail" Description="Blocks all users from using Windows Mail" UserOrGroupSid="S-1-1-0" Action="Deny"> 
+    <FilePublisherRule Id="69c9b64a-0c6b-4e82-b88d-ef73e5b83aaf" Name="Block Outook" Description="Blocks all users from using Outlook" UserOrGroupSid="S-1-1-0" Action="Deny"> 
     <Conditions> 
-      <FilePublisherCondition PublisherName="O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="microsoft.windowscommunicationsapps" BinaryName="*"> 
+      <FilePublisherCondition PublisherName="O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="microsoft.outlookforwindows" BinaryName="*"> 
         <BinaryVersionRange LowSection="*" HighSection="*" /> 
       </FilePublisherCondition> 
     </Conditions> 
