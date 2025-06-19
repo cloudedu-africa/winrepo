@@ -1,16 +1,16 @@
 <RuleCollection Type="Appx" EnforcementMode="Enabled">
-  <FilePublisherRule Id=GUID Name="Allow all signed apps" Description="Allows all users to run signed apps" UserOrGroupSid="S-1-1-0" Action="Allow">
-    <Conditions>
-      <FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*">
-        <BinaryVersionRange LowSection="*" HighSection="*" />
-      </FilePublisherCondition>
-    </Conditions>
-  </FilePublisherRule>
-  <FilePublisherRule Id=GUID Name="Block Windows Mail" Description="Blocks all users from using Windows Mail" UserOrGroupSid="S-1-1-0" Action="Deny"> 
+  <FilePublisherRule Id="b34c3450-d464-412b-9e0b-9c89d484262e" Name="Block Windows Mail" Description="Blocks all users from using Windows Mail" UserOrGroupSid="S-1-1-0" Action="Deny"> 
     <Conditions> 
       <FilePublisherCondition PublisherName="O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="microsoft.windowscommunicationsapps" BinaryName="*"> 
         <BinaryVersionRange LowSection="*" HighSection="*" /> 
       </FilePublisherCondition> 
     </Conditions> 
-  </FilePublisherRule>      
+  </FilePublisherRule>
+    <FilePublisherRule Id="69c9b64a-0c6b-4e82-b88d-ef73e5b83aaf" Name="Block Windows Mail" Description="Blocks all users from using Windows Mail" UserOrGroupSid="S-1-1-0" Action="Deny"> 
+    <Conditions> 
+      <FilePublisherCondition PublisherName="O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="microsoft.windowscommunicationsapps" BinaryName="*"> 
+        <BinaryVersionRange LowSection="*" HighSection="*" /> 
+      </FilePublisherCondition> 
+    </Conditions> 
+  </FilePublisherRule> 
 </RuleCollection>
