@@ -1,0 +1,9 @@
+<RuleCollection Type="Exe" EnforcementMode="Enabled">
+  <FilePublisherRule Id=9af79c6c-e0cc-4e6f-a2f0-7cc7b09aa0f1 Name="BlockEdge" Description="Block Edge" UserOrGroupSid="S-1-1-0" Action="Deny">
+     <Conditions>
+       <FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US\MICROSOFT" BinaryName="MSEDGE.EXE" ProductName="EDGE\MSEDGE.EXE">
+         <BinaryVersionRange HighSection="*" LowSection="*" />
+       </FilePublisherCondition>
+     </Conditions>
+   </FilePublisherRule>
+</RuleCollection>
